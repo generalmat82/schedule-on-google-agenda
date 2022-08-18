@@ -55,7 +55,7 @@ def add_events():
                 day_en = f'{date}T{class_time[f"class_{j}_en"]}'
                 schedule[f'jour_{day}'][f'class{j}']['start']['dateTime'] = day_st
                 schedule[f'jour_{day}'][f'class{j}']['end']['dateTime'] = day_en
-                schedule[f'jour_{day}'][f'class{j}'] = service.events().insert(calendarId='8l00e35lvlr9nk1sbnqbi7tnro@group.calendar.google.com', body=schedule[f'jour_{day}'][f'class{j}']).execute()
+                schedule[f'jour_{day}'][f'class{j}'] = service.events().insert(calendarId='primary', body=schedule[f'jour_{day}'][f'class{j}']).execute()
                 print(f"day {day} class {j} has been added to the calender.")
         else: continue
         day_st = f'{now + timedelta(days=day+1)}T{class_time["class_1_st"]}'
