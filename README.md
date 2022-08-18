@@ -7,4 +7,4 @@ to use the program follow these steps:
     follow this tutorial to do that https://developers.google.com/workspace/guides/create-credentials
 3.  now you will need to go into check_things.py and put in your schedule this program is optimise to have 4 different days in your schedule with 4 classes.
     you will want to put it in the last function called remake_schedule() and modify the schedule dictionary.
-4.  start the program
+4.  start the program from main.py
