@@ -11,9 +11,9 @@ to use the program follow these steps:
 3.  you will also need to install Google client library for Python
         by runing   pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib        in you cmd
 
-3.  now you will need to go into check_things.py and put in your schedule this program is optimise to have 4 different days in your schedule with 4 classes.
+4.  now you will need to go into check_things.py and put in your schedule this program is optimise to have 4 different days in your schedule with 4 classes.
     you will want to put it in the last function called remake_schedule() and modify the schedule dictionary.
 
-4.  put the days of breaks and vacation in the check_holiday() function and put every day of vacation in they're specific month 
+5.  put the days of breaks and vacation in the check_holiday() function and put every day of vacation in they're specific month 
 
-5.  start the program from main.py
+6.  start the program from main.py
