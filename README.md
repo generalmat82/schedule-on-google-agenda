@@ -8,6 +8,9 @@ to use the program follow these steps:
 2.  you will need a credentials.json file that contacts with your project.
     follow this tutorial to do that https://developers.google.com/workspace/guides/create-credentials
 
+3.  you will also need to install Google client library for Python
+        by runing   pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib        in you cmd
+
 3.  now you will need to go into check_things.py and put in your schedule this program is optimise to have 4 different days in your schedule with 4 classes.
     you will want to put it in the last function called remake_schedule() and modify the schedule dictionary.
 
